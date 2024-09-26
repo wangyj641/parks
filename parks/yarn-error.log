@@ -1,0 +1,62 @@
+Arguments: 
+  C:\nvm-nodejs\node.exe C:\Users\to_wy\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js set version 3.6.4
+
+PATH: 
+  C:\nvm-nodejs;D:\YJWANG\workspace\code\android\node_modules\.bin;D:\YJWANG\workspace\code\node_modules\.bin;D:\YJWANG\workspace\node_modules\.bin;D:\YJWANG\node_modules\.bin;D:\node_modules\.bin;C:\Users\to_wy\AppData\Roaming\nvm\v20.10.0\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Program Files\Microsoft\jdk-17.0.12.7-hotspot\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\YJWANG\workspace\mysql-8.1.0-winx64\bin;C:\Program Files\Redis\;C:\Program Files\dotnet\;C:\Users\to_wy\AppData\Roaming\nvm;C:\nvm-nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\to_wy\AppData\Local\Android\sdk\platform-tools;C:\Users\to_wy\AppData\Local\Android\sdk\tools;C:\Users\to_wy\miniconda3;C:\Users\to_wy\miniconda3\Library\mingw-w64\bin;C:\Users\to_wy\miniconda3\Library\usr\bin;C:\Users\to_wy\miniconda3\Library\bin;C:\Users\to_wy\miniconda3\Scripts;C:\Users\to_wy\AppData\Local\Microsoft\WindowsApps;C:\Users\to_wy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.4\bin;;C:\mingw64\bin;C:\Program Files\JetBrains\PhpStorm 2023.2.3\bin;;C:\Users\to_wy\.dotnet\tools;C:\Users\to_wy\AppData\Roaming\nvm;C:\nvm-nodejs;C:\Users\to_wy\AppData\Local\Programs\oh-my-posh\bin;C:\Users\to_wy\go\bin;C:\Users\to_wy\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOENT raw.githubusercontent.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+
+npm manifest: 
+  {
+    "name": "myproject",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "android": "react-native run-android",
+      "ios": "react-native run-ios",
+      "lint": "eslint .",
+      "start": "react-native start",
+      "test": "jest"
+    },
+    "dependencies": {
+      "react": "18.3.1",
+      "react-native": "0.75.3"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0",
+      "@babel/preset-env": "^7.20.0",
+      "@babel/runtime": "^7.20.0",
+      "@react-native/babel-preset": "0.75.3",
+      "@react-native/eslint-config": "0.75.3",
+      "@react-native/metro-config": "0.75.3",
+      "@react-native/typescript-config": "0.75.3",
+      "@types/react": "^18.2.6",
+      "@types/react-test-renderer": "^18.0.0",
+      "babel-jest": "^29.6.3",
+      "eslint": "^8.19.0",
+      "jest": "^29.6.3",
+      "prettier": "2.8.8",
+      "react-test-renderer": "18.3.1",
+      "typescript": "5.0.4"
+    },
+    "engines": {
+      "node": ">=18"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
